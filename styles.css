@@ -1,27 +1,35 @@
 body{
-    background-color: rgb(204,204,204);
+background-color:#cccccc;
+font-family:Arial;
 }
 
-h1{
-    text-align:center;
+h1,h2{
+text-align:center;
 }
 
-h2{
-    text-align:center;
+.player_one{
+background:white;
+padding:20px;
+border-radius:10px;
+width:80%;
+margin:20px auto;
+}
+
+.player_two{
+background:white;
+padding:20px;
+border-radius:10px;
+width:80%;
+margin:20px auto;
+text-align:center;
 }
 
 li{
-    list-style-type:none;
+list-style-type:none;
+padding:5px;
 }
 
 a{
-    text-decoration-line:none;
-}
-
-.player_one, .player_two{
-    background-color: rgb(255,255,255);
-    padding:20px;
-    border-radius:10px;
-    width:80%;
-    margin:auto;
+text-decoration:none;
+color:black;
 }
